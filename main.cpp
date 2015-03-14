@@ -1,10 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include <expat.h>
 
 int main()
 {
-    cout << "Hello World!" << endl;
+
+    XML_Parser parser = XML_ParserCreate(NULL);
     return 0;
 }
-

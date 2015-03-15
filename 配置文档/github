@@ -1,0 +1,4 @@
+删除github上文件
+git rm --cached filename
+git commit -m "hehe"
+git push origin branch 

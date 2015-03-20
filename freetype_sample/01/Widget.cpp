@@ -37,4 +37,5 @@ void Widget::paintGL()
     {
         m_pStage->Display();
     }
+    update();
 }

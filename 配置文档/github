@@ -1,3 +1,6 @@
+[cc@aca8016c cpp_01]$ git remote add origin https://github.com/hgcrg/opengl.git
+[cc@aca8016c cpp_01]$ git push -u origin master
+
 删除github上文件
 git rm --cached filename
 git commit -m "hehe"

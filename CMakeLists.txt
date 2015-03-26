@@ -9,7 +9,7 @@ find_package(GDAL)
 find_package(OpenSceneGraph REQUIRED osg osgViewer osgGA osgDB)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_BUILD_TYPE "Debug")
-
+INCLUDE_DIRECTORIES("/usr/include/freetype")
 add_subdirectory(freetype_sample)
 add_subdirectory(cairo_sample)
 add_subdirectory(x11_sample)

@@ -1,7 +1,7 @@
 #ifndef STAGE__HH__
 #define STAGE__HH__
 #include <GL/glew.h>
-#include <ft2build.h>
+#include <freetype/ft2build.h>
 #include FT_FREETYPE_H
 class Stage
 {
